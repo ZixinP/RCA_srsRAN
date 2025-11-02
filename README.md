@@ -19,9 +19,9 @@ add_library(srsran_scheduler_policy
 *In yaml configuration file* :  
   
 cell_cfg:  
-  #other cellule config   
-  sched_expert_cfg:   
-    policy_sched_cfg:   
-      greedy_sched: {} # activate greedy   
-      # pf_sched:...  # make sure other algo have been commented  
+&ensp;#other cellule config   
+&ensp;sched_expert_cfg:   
+&ensp;&ensp;policy_sched_cfg:   
+&ensp;&ensp;&ensp;greedy_sched: {} # activate greedy   
+&ensp;&ensp;&ensp;# pf_sched:...  # make sure other algo have been commented  
  
