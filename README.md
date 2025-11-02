@@ -5,23 +5,23 @@ srsRAN scheduler algorithme implementation method example
 
 #...
 
-add_library(srsran_scheduler_policy
-  scheduler_policy_factory.cpp 
-  scheduler_time_pf.cpp 
-  scheduler_time_rr.cpp 
-  scheduler_time_greedy.cpp # <-- 
-) 
+add_library(srsran_scheduler_policy  
+  scheduler_policy_factory.cpp   
+  scheduler_time_pf.cpp    
+  scheduler_time_rr.cpp   
+  scheduler_time_greedy.cpp # <--   
+)   
+  
+#...  
 
-#...
 
 
-
-*In yaml configuration file* :
-
-cell_cfg:
-  #other cellule config 
-  sched_expert_cfg: 
-    policy_sched_cfg: 
-      greedy_sched: {} # activate greedy 
-      # pf_sched:...  # make sure other algo have been commented
+*In yaml configuration file* :  
+  
+cell_cfg:  
+  #other cellule config   
+  sched_expert_cfg:   
+    policy_sched_cfg:   
+      greedy_sched: {} # activate greedy   
+      # pf_sched:...  # make sure other algo have been commented  
  
