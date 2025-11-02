@@ -16,7 +16,8 @@ add_library(srsran_scheduler_policy
 
 
 
-*In yaml configuration file*:
+*In yaml configuration file* :
+
 cell_cfg:
   #other cellule config
   sched_expert_cfg:
