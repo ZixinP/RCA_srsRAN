@@ -1,4 +1,3 @@
-//... inside scheduler_policy_factory.h
 
 namespace srsran {
 namespace mac {
@@ -6,7 +5,6 @@ namespace mac {
 //... other structs like pf_sched_args_t
 
 // Configuration arguments for the new Greedy scheduler.
-// Can be extended with parameters in the future.
 struct greedy_sched_args_t {};
 
 // Main scheduler policy configuration struct
